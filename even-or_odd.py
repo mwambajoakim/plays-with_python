@@ -4,4 +4,3 @@ for i in range(1, 21):
         print("{} is even".format(i))
     else:
         print("{} is odd".format(i))
-        
