@@ -15,4 +15,3 @@ elif (op == '*'):
 elif (op == '/'):
     quot = num1 / num2
     print("{} / {} = {}".format(num1, num2, quot))
-
