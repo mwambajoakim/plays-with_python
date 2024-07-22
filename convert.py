@@ -11,6 +11,7 @@ def main():
     celsius = float(celsius)
     farenheit = 9/5 * celsius + 32
     print(f"The temperature in farenheit is {farenheit}")
+    input("Press the <Enter> key to quit")
 
 
 main()
