@@ -5,14 +5,12 @@
 # Date: 22/07/2024
 
 def main():
-    print("""This program will convert temperature to farenheit.
-        It will ask you for input as celsius.""")
-    for i in range(5):
-        celsius = input("What is the temperature in Celsius? ")
-        celsius = float(celsius)
+    print("This program will convert temperature to farenheit.")
+    celsius = 0
+    for i in range(10):
+        celsius += 10
         farenheit = 9/5 * celsius + 32
-        print(f"The temperature in farenheit is {farenheit}")
-    input("Press the <Enter> key to quit")
+        print(f"{celsius}                         {farenheit}")
 
 
 main()
